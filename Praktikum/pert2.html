@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Pendaftaran</title>
+</head>
+<body>
+    <form onsubmit="return showSuccessMessage()">
+    <h2>Form Pendaftaran</h2>
+    <form action="" method="post">
+        <table>
+            <tr>
+               <td>
+                Nama:
+               </td>
+            <td>
+                <input type="text" name="Nama" placeholder="Masukkan Nama" required>
+            </td>    
+            </tr>
+        
+            <tr>
+                <td>Email:</td>
+                <td><input type="email" name="email" placeholder="Masukkan Email" required></td>
+            </tr>
+
+            <tr>
+                <td>Tanggal Lahir:</td>
+                <td><input type="date" name="" id=""></td>
+            </tr>
+
+            <tr>
+                <td>Jenis Kelamin:</td>
+                <td><input type="radio" name="jenis_kelamin" value="Laki-laki"> Laki-laki
+                    <input type="radio" name="jenis_kelamin" value="Perempuan"> Perempuan</td>
+            </tr>
+
+            <tr>
+                <td>Hobi:</td>
+                <td><input type="checkbox" name="hobi" value="Masak"> Masak
+                    <input type="checkbox" name="hobi" value="Membaca"> Membaca
+                    <input type="checkbox" name="hobi" value="Olahraga"> Olahraga</td>
+            </tr>
+
+            <tr>
+                <td>Asal Kota:</td>
+                <td><select name="" id="">
+                    <option value="">Jakarta</option>
+                    <option value="">Bekasi</option>
+                    <option value="">Karawang</option>
+                    <option value="">Purwakarta</option>
+                    <option value="">Subang</option>
+                    <option value="">Cirebon</option>
+                    <option value="">Indramayu</option>
+                </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Unggah Foto:</td>
+                <td><input type="file" name="foto" accept="image/*" required>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <button type="submit" class="submit-btn">Daftar</button>
+                </td>
+            </tr>
+        
+        </table>
+    </form>
+</body>
+<script src="script.js"></script>
+</html>
