@@ -1,0 +1,106 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+
+
+header {
+   background-color: #9c1328;
+   color: white;
+   font-size: 30px;
+   font-weight: bold;
+   text-align: center;
+   padding: 20px;
+}
+
+nav {
+   background-color: #d73e3e;
+   padding: 10px;
+   text-align: center;
+}
+
+nav ul {
+   list-style: none;
+   padding: 0;
+}
+
+nav ul li {
+   display: inline;
+   margin: 0 15px;
+}
+
+nav ul li a {
+   color: white;
+   text-decoration: none;
+}
+
+.container {
+   background: white;
+   padding: 20px;
+   border-radius: 5px;
+}
+
+.content {
+   display: flex;
+   margin-top: 20px;
+   gap: 20px;
+}
+
+.form-section {
+   flex: 2;
+   padding: 20px;
+   background: #f8f8f8;
+   border-radius: 5px;
+}
+
+.sidebar {
+   flex: 1;
+   padding: 20px;
+   background: #e0e0e0;
+   border-radius: 5px;
+}
+
+.form-group {
+   margin-bottom: 15px;
+}
+
+.form-group label {
+   display: block;
+   font-weight: bold;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+   width: 100%;
+   padding: 8px;
+   margin-top: 5px;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+}
+
+.form-group input[type="radio"],
+.form-group input[type="checkbox"] {
+   width: auto;
+   margin-right: 5px;
+}
+
+.gender-options,
+.hobby-options {
+   display: flex;
+   flex-direction: column;
+}
+
+.submit-button {
+   background: #007bff;
+   color: white;
+   padding: 10px;
+   border: none;
+   width: 100%;
+   cursor: pointer;
+   border-radius: 4px;
+}
+
+.submit-button:hover {
+   background: #0056b3;
+}
