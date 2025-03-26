@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pertemuan 5</title>
+</head> -->
+<!-- <body> -->
+    <!-- <h1 id="judul">Belajar JavaScript Dasar</h1> -->
+    <!-- secara inline -->
+    <!-- <script>
+        alert("Halo Dunia")
+    </script> -->
+    <!-- <button onclick="alert('Halo! Ini dari JavaScript')">Klik Saya</button> -->
+
+    <!-- secara internal -->
+    <!-- <button onclick="ubahTeks()">Ubah Teks</button>
+    <script>
+        function ubahTeks() {
+            document.getElementById("judul").innerHTML = "Teks telah berubah!";
+        }
+    </script> -->
+
+    <!-- secara eksternal -->
+    <!-- <script src="pert5.js"></script> -->
+
+    
+ 
+ 
+<!-- </body> -->
+<head>
+    <title>Kalkulator Sederhana</title>
+</head>
+<body>
+   <h2>Kalkulator</h2>
+   <input type="number" id="num1">
+   <input type="number" id="num2">
+   <select id="operator">
+        <option value="1">+</option>
+        <option value="2">-</option>
+        <option value="3">×</option>
+        <option value="4">÷</option>
+    </select>
+   <button onclick="hitung()">Hitung</button>
+   <p>Hasil: <span id="hasil"></span></p>
+
+
+   <script>
+       function hitung() {
+            let num1 = parseInt(document.getElementById("num1").value);
+            let num2 = parseInt(document.getElementById("num2").value);
+           let operator = document.getElementById("operator").value;
+           switch(operator){
+                case "1":
+                    hasil = num1 + num2
+                    break;
+                case "2":
+                    hasil = num1 - num2
+                    break
+                case "3":
+                    hasil = num1 * num2
+                    break;
+                case "4":
+                    hasil = num1 / num2
+                    break;
+                default:
+                    hasil = "eror say"   
+           }
+        //    let hasil = parseInt(num1) + parseInt(num2);
+           document.getElementById("hasil").innerText = hasil;
+       }
+   </script>
+</body> 
+</html>
