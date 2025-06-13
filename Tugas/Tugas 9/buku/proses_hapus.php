@@ -10,7 +10,7 @@ if (isset($_GET['id']) && is_numeric($_GET['id'])) {
 
     // Eksekusi dan tangani hasilnya
     if ($stmt->execute()) {
-        echo "<script>alert('Buku berhasil dihapus (soft delete)'); window.location='../index.php';</script>";
+        echo "<script>alert('Buku berhasil dihapus'); window.location='../index.php';</script>";
     } else {
         echo "<script>alert('Gagal menghapus buku: " . addslashes($stmt->error) . "'); window.location='../index.php';</script>";
     }
