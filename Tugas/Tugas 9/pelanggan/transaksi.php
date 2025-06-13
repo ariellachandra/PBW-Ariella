@@ -28,7 +28,7 @@ $pelanggan_result = $conn->query("SELECT ID, Nama FROM Pelanggan");
        <div class="mb-3">
            <label for="pelanggan_id" class="form-label">Pilih Pelanggan</label>
            <select class="form-select" name="pelanggan_id" id="pelanggan_id" required>
-               <option value="">-- Pilih Pelanggan --</option>
+               <option value="">Pilih Pelanggan</option>
                <?php while ($row = $pelanggan_result->fetch_assoc()): ?>
                    <option value="<?= $row['ID'] ?>"><?= htmlspecialchars($row['Nama']) ?></option>
                <?php endwhile; ?>
@@ -40,7 +40,7 @@ $pelanggan_result = $conn->query("SELECT ID, Nama FROM Pelanggan");
        <div class="mb-3">
            <label for="buku_id" class="form-label">Judul Buku</label>
            <select class="form-select" name="buku[1][id]" id="buku_id" required>
-               <option value="">-- Pilih Buku --</option>
+               <option value="">Pilih Buku</option>
                <?php while ($row = $buku_result->fetch_assoc()): ?>
                    <option value="<?= $row['ID'] ?>"><?= htmlspecialchars($row['Judul']) ?></option>
                <?php endwhile; ?>
