@@ -52,8 +52,8 @@
                    <td><?php echo $row['Tahun_Terbit'] ?></td>
                    <td>Rp<?php echo number_format($row['Harga'], 2) ?></td>
                    <td>
-                       <a href="form_edit.php?id=<?php echo $row['ID'] ?>" class="btn btn-sm btn-warning">Edit</a>
-                       <a href="buku/proses_hapus.php?id=<?php echo $row['ID'] ?>" class="btn btn-sm btn-danger" onclick="return confirm('Yakin ingin menghapus?')">Hapus</a>
+                       <a href="/Tugas/Tugas 9/buku/form_edit.php?id=<?php echo $row['ID'] ?>" class="btn btn-sm btn-warning">Edit</a>
+                       <a href="/Tugas/Tugas 9/buku/proses_hapus.php?id=<?php echo $row['ID'] ?>" class="btn btn-sm btn-danger" onclick="return confirm('Yakin ingin menghapus?')">Hapus</a>
                    </td>
                </tr>
                <?php endwhile; ?>
