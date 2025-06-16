@@ -42,9 +42,10 @@
                     <a class="nav-link" href="/Tugas/Tugas 9/pelanggan/daftar_pelanggan.php">Daftar Pelanggan</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/Tugas/Tugas 9/logout.php" class="btn btn-danger">Logout</a>
-                </li>
-                
+                    <a class="btn btn-danger" href="/Tugas/Tugas 9/logout.php" style="background-color: pink; border-color: pink; color: white;">
+                        Logout
+                    </a>
+                </li>         
             </ul>
         </div>
     </div>
