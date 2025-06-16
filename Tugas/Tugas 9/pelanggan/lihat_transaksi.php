@@ -1,5 +1,12 @@
 <?php
+session_start();
+if (!isset($_SESSION['login_Un51k4'])) {
+    header("Location: ../login.php?message=" . urlencode("Silakan login dulu."));
+    exit;
+}
+
 include '../koneksi_db.php'; // Koneksi database
+
 
 
 // Query untuk menampilkan data pesanan beserta nama pelanggan dan total harga

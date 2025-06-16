@@ -1,6 +1,14 @@
 <?php
+session_start();
+if (!isset($_SESSION['login_Un51k4'])) {
+    header("Location: ../login.php?message=" . urlencode("Silakan login dulu."));
+    exit;
+}
+
 // Mengimpor file koneksi database agar bisa menggunakan koneksi $conn
 include '../koneksi_db.php';
+
+
 // Mengecek apakah permintaan yang masuk adalah POST (biasanya dari form submission)
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
    // Mengambil data yang dikirim melalui form dengan method POST

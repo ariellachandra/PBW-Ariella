@@ -12,7 +12,7 @@
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container">
-        <a class="navbar-brand" href="index.php">Toko Buku Online Ariella</a>
+        <a class="navbar-brand" href="index.php">Toko Buku Online</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarNav" aria-controls="navbarNav"
                 aria-expanded="false" aria-label="Toggle navigation">
@@ -41,6 +41,10 @@
                 <li class="nav-item">
                     <a class="nav-link" href="/Tugas/Tugas 9/pelanggan/daftar_pelanggan.php">Daftar Pelanggan</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/Tugas/Tugas 9/logout.php" class="btn btn-danger">Logout</a>
+                </li>
+                
             </ul>
         </div>
     </div>
