@@ -21,28 +21,28 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="/PBW/Tugas/Tugas 9/index.php">Daftar Buku</a>
+                    <a class="nav-link" href="/PBW/Tugas/Tugas 10/index.php">Daftar Buku</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/PBW/Tugas/Tugas 9/buku/tambah_buku.php">Tambah Buku</a>
+                    <a class="nav-link" href="/PBW/Tugas/Tugas 10/buku/tambah_buku.php">Tambah Buku</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/PBW/Tugas/Tugas 9/buku/hapus_buku.php">Hapus Buku</a>
+                    <a class="nav-link" href="/PBW/Tugas/Tugas 10/buku/hapus_buku.php">Hapus Buku</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/PBW/Tugas/Tugas 9/pelanggan/transaksi.php">Buat Pesanan</a>
+                    <a class="nav-link" href="/PBW/Tugas/Tugas 10/pelanggan/transaksi.php">Buat Pesanan</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/PBW/Tugas/Tugas 9/pelanggan/lihat_transaksi.php">Lihat Pesanan</a>
+                    <a class="nav-link" href="/PBW/Tugas/Tugas 10/pelanggan/lihat_transaksi.php">Lihat Pesanan</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/PBW/Tugas/Tugas 9/pelanggan/tambah_pelanggan.php">Tambah Pelanggan</a>
+                    <a class="nav-link" href="/PBW/Tugas/Tugas 10/pelanggan/tambah_pelanggan.php">Tambah Pelanggan</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/PBW/Tugas/Tugas 9/pelanggan/daftar_pelanggan.php">Daftar Pelanggan</a>
+                    <a class="nav-link" href="/PBW/Tugas/Tugas 10/pelanggan/daftar_pelanggan.php">Daftar Pelanggan</a>
                 </li>
                 <li class="nav-item">
-                    <a class="btn btn-danger" href="/PBW/Tugas/Tugas 9/logout.php" style="background-color: pink; border-color: pink; color: white;">
+                    <a class="btn btn-danger" href="/PBW/Tugas/Tugas 10/logout.php" style="background-color: pink; border-color: pink; color: white;">
                         Logout
                     </a>
                 </li>         
